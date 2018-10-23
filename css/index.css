@@ -1,0 +1,39 @@
+#witHeader{
+	background-color: #f41e1e;
+    font-size: 4vmax;
+    text-align: center;
+    font-style: bold;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 3px solid;
+    border-radius: 33px;
+}
+
+#playButton {
+    background-color: #f41e1e;
+    border-color: black;
+    margin-left: 45%;
+    margin-top: 20%;
+    width: 10%;
+    font-size: 2vw;
+    border-radius: 33px;
+}
+
+#nextButton {
+    background-color: #f41e1e;
+    border-color: black;
+    margin-left: 45%;
+    width: 10%;
+    font-size: 2vw;
+    border-radius: 33px;
+}
+
+#quizDiv {
+	margin: 5%;
+    border: 2px solid;
+    border-radius: 19px;
+    padding: 2%;
+    height: 30%;
+    font-size: 2vw;
+    font-weight: bold;
+}
