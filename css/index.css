@@ -1,5 +1,4 @@
 #witHeader{
-	background-color: #f41e1e;
     font-size: 4vmax;
     text-align: center;
     font-style: bold;
@@ -36,4 +35,19 @@
     height: 30%;
     font-size: 2vw;
     font-weight: bold;
+}
+
+.radio {
+    padding: 0.7%;
+}
+
+#quizScore{
+    font-size: 3vw;
+    border: 1px solid;
+    width: fit-content;
+    /* margin: 13%; */
+    margin-left: 40%;
+    margin-top: 15%;
+    border-radius: 25px;
+    padding: 2%;
 }
