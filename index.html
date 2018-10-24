@@ -17,22 +17,25 @@
 	<div id="quizDiv" style="display: none;">
 		<div id="questionText"></div>
 		<div class="radio">
-		  <input id="radio11" type="radio" name="optradio" checked /><label id="radio1" />
+		  <input style="width: 2em; height: 0.8em" id="radio11" type="radio" name="optradio" checked /><label style="font-weight: bold" id="radio1" />
 		</div>
 		<div class="radio">
-		  <input id="radio12" type="radio" name="optradio" /> <label id="radio2">
+		  <input style="width: 2em; height: 0.8em" id="radio12" type="radio" name="optradio" /> <label style="font-weight: bold" id="radio2">
 		</div>
 		<div class="radio">
-		  <input id="radio13" type="radio" name="optradio" /> <label id="radio3">
+		  <input style="width: 2em; height: 0.8em" id="radio13" type="radio" name="optradio" /> <label style="font-weight: bold" id="radio3">
 		</div>
 		<div class="radio">
-		  <input id="radio14" type="radio" name="optradio" /> <label id="radio4">
+		  <input style="width: 2em; height: 0.8em" id="radio14" type="radio" name="optradio" /> <label style="font-weight: bold" id="radio4">
 		</div>
 		<div id="quizAnswer" style="display: none"></div>
 	</div>
 	<button style="display: none" id="nextButton" type="button" onclick="displayQuizQuestion()">NEXT</button>
-	<div id="quizScore" style="display: none">
-		SCORE: 
+	<div id="quizResults" style="display: none;">
+		<div id="quizScore" style="display: none">
+			SCORE: 
+		</div>
+		<button id="startOver" type="button" onclick="restartGame()">START AGAIN</button>
 	</div>
 </body>
 </html>

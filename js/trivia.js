@@ -11,19 +11,21 @@ function displayQuiz() {
 }
 
 function displayQuizQuestion(){
+	if(questionsCount >= 1){
+		var checkedAns = $('input[name=optradio]:checked').val();
+		if(checkedAns === document.getElementById('quizAnswer').innerHTML){
+			rightAnswerCount++;
+		}
+	}
 	if(questionsCount == 3){
 		$('#quizDiv').hide();
 		$('#nextButton').hide();
+		$('#quizResults').show();
 		$('#quizScore').show();
+
 		document.getElementById('quizScore').innerHTML="SCORE:"+ rightAnswerCount +" / " +totalNoOfQuestions;
 	}
 	else {
-		if(questionsCount >= 1){
-			var checkedAns = $('input[name=optradio]:checked').val();
-			if(checkedAns === document.getElementById('quizAnswer').innerHTML){
-				rightAnswerCount++;
-			}
-		}
 		questionsCount++;
 		var randomNum = Math.floor((Math.random() * 3));
 		var questionObj = quizData[randomNum];
@@ -40,4 +42,11 @@ function displayQuizQuestion(){
 		document.getElementById('quizAnswer').innerHTML = questionObj.rightAnswer;
 	}
 	
+}
+
+function restartGame(){
+	$('#quizResults').hide();
+	$('#playButton').show();
+	questionsCount=0;
+	rightAnswerCount=0;
 }
