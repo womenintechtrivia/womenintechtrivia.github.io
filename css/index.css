@@ -1,7 +1,7 @@
 #witHeader{
     background-color: #008000;
     color: white;
-    font-size: 4vmax;
+    font-size: 3vmax;
     text-align: center;
     font-style: bold;
     font-weight: bold;
@@ -44,7 +44,7 @@
     background-color: #cadbca;
     border: 2px solid;
     border-radius: 19px;
-    padding: 2%;
+    padding: 1.5%;
     height: 30%;
     font-size: 2vw;
     font-weight: bold;

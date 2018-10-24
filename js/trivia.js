@@ -1,5 +1,5 @@
 var questionsCount=0;
-var totalNoOfQuestions = 3;
+var totalNoOfQuestions = 5;
 var rightAnswerCount = 0;
 
 function displayQuiz() {
@@ -17,7 +17,7 @@ function displayQuizQuestion(){
 			rightAnswerCount++;
 		}
 	}
-	if(questionsCount == 3){
+	if(questionsCount == 5){
 		$('#quizDiv').hide();
 		$('#nextButton').hide();
 		$('#quizResults').show();
@@ -27,7 +27,7 @@ function displayQuizQuestion(){
 	}
 	else {
 		questionsCount++;
-		var randomNum = Math.floor((Math.random() * 3));
+		var randomNum = Math.floor((Math.random() * 20));
 		var questionObj = quizData[randomNum];
 		//document.getElementById('questionId').innerHTML = questionsCount;
 		document.getElementById('questionText').innerHTML = questionsCount+". "+questionObj.question;
