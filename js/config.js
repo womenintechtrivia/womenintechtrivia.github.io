@@ -170,7 +170,7 @@ quizData = [
 		},
 
 {	
-	"question":"who’s the current CEO of YouTube also called the “most important person in advertising”?",
+	"question":"Who’s the current CEO of YouTube also called the “most important person in advertising”?",
 	"questionOpt1":"Susan wojcicki",
 	"questionOpt2":"Augustus Ada Byron",
 	"questionOpt3":"Tarah wheeler",

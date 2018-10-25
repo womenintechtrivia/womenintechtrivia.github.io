@@ -8,6 +8,7 @@ function displayQuiz() {
 	$('#quizDiv').show();
 	displayQuizQuestion();
 	$('#nextButton').show();
+	$('#player').play();
 }
 
 function displayQuizQuestion(){
