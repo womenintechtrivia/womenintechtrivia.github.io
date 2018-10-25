@@ -16,7 +16,7 @@ quizData = [
 		"rightAnswer":"Ada Lovelace",
 	},
 	{
-		"question":"Which women developed the algorithm behind the spanning tree protocol?",
+		"question":"Which woman developed the algorithm behind the spanning tree protocol?",
 		"questionOpt1":"Radia Perlman",
 		"questionOpt2":"Tarah wheeler",
 		"questionOpt3":"Marrisa Mayor",
@@ -69,7 +69,7 @@ quizData = [
 	},
 
 	{	
-		"question":"Dame Stephanie Shirley founded software firm F I in 1962. What was special about it?",
+		"question":"Dame Stephanie Shirley founded software firm FI in 1962. What was special about it?",
 		"questionOpt1":"It outsourced work from India",
 		"questionOpt2":"It pioneered educational software",
 		"questionOpt3":"It employed 99 percent women",
@@ -143,7 +143,7 @@ quizData = [
 		},
 
 {	
-	"question":"Padmasree Warrior was the CTO for which tech giamt?",
+	"question":"Padmasree Warrior was the CTO for which tech giant?",
 	"questionOpt1":"Juniper",
 	"questionOpt2":"Cisco",
 	"questionOpt3":"EMC",
@@ -170,7 +170,7 @@ quizData = [
 		},
 
 {	
-	"question":"Who’s the current CEO of YouTube also called the “most important person in advertising”?",
+	"question":"Who’s the current CEO of YouTube and also called the “most important person in advertising”?",
 	"questionOpt1":"Susan wojcicki",
 	"questionOpt2":"Augustus Ada Byron",
 	"questionOpt3":"Tarah wheeler",
@@ -180,7 +180,7 @@ quizData = [
 
 
 {	
-	"question":"Who’s the first women to head IBM?",
+	"question":"Who’s the first woman to head IBM?",
 	"questionOpt1":"Susan Kare",
 	"questionOpt2":"Susan wojcicki",
 	"questionOpt3":"Meg Whitman",
@@ -189,7 +189,7 @@ quizData = [
 		},
 
 {	
-	"question":"Mostly Recognized for her contribution to Ethernet technology ,Who’s referred to as the “Mother of Internet”?",
+	"question":"Mostly Recognized for her contribution to Ethernet technology,Who’s referred to as the “Mother of Internet”?",
 	"questionOpt1":"Susan Kare",
 	"questionOpt2":"Radia perlman",
 	"questionOpt3":"Joan Ball",
@@ -198,7 +198,7 @@ quizData = [
 		},
 
 {	
-	"question":"Who’s the first black women to head a fortune 500 company, Xerox Corporation?",
+	"question":"Who’s the first black woman to head a fortune 500 company, Xerox Corporation?",
 	"questionOpt1":"Ursula Burns",
 	"questionOpt2":"Dorothy Vaughan",
 	"questionOpt3":"Mary Jackson",
@@ -207,7 +207,7 @@ quizData = [
 		},
 
 {	
-	"question":"Who was the first person to start a computer dating service in 1964.?",
+	"question":"Who was the first person to start a computer dating service in 1964?",
 	"questionOpt1":"Jean E. Sammet",
 	"questionOpt2":"Susan Kare",
 	"questionOpt3":"Joan Ball",
